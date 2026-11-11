@@ -1,0 +1,62 @@
+{
+  "n": 416,
+  "inicio": "1990-01-01",
+  "fin": "2024-08-01",
+  "train_n": 332,
+  "test_n": 84,
+  "val_n": 60,
+  "train_inicio": "1990-01-01",
+  "train_fin": "2017-08-01",
+  "test_inicio": "2017-09-01",
+  "test_fin": "2024-08-01",
+  "media": 320.291196899331,
+  "mediana": 298.37833136099994,
+  "sd": 100.15354976367225,
+  "min": 136.3178164524,
+  "min_fecha": "2024-06-01",
+  "max": 572.898759444,
+  "max_fecha": "2015-05-01",
+  "preliminares_n": 32,
+  "preliminares_anios": [
+    2022,
+    2023,
+    2024
+  ],
+  "faltantes_diesel": 0,
+  "duplicados": 0,
+  "max_diff_anual": 6.289800057857065e-05,
+  "arima_order": [
+    1,
+    1,
+    1
+  ],
+  "lstm_units": 50,
+  "lstm_activation": "relu",
+  "lstm_epochs": 60,
+  "lstm_params": 10451,
+  "seleccion_validacion": "ARIMA",
+  "semilla_principal": 42,
+  "anual_max": {
+    "ANIO": 2015,
+    "DIESEL_SUMA": 6322.652631768,
+    "MESES": 12,
+    "PRELIMINAR": false,
+    "DIESEL_PUBLICADO": 6322.652631768,
+    "DIFERENCIA": 0.0
+  },
+  "variacion_ene_ago_2024_2023": -15.366051113862756,
+  "versiones": {
+    "Python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "statsmodels": "0.14.5",
+    "sklearn": "1.7.2",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "matplotlib": "3.10.6"
+  },
+  "sha256_excel": "044bdb731f7762855aee7c7bb0203069e129d87a13d2def13173e68d2399425f",
+  "avisos_arima_final": [
+    "Setting the shape on a NumPy array has been deprecated in NumPy 2.5.\nAs an alternative, you can create a new view using np.reshape (with copy=False if needed)."
+  ]
+}

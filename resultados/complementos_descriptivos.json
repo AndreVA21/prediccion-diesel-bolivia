@@ -1,0 +1,9 @@
+{
+  "mediana_mayor_mes": 7,
+  "mediana_menor_mes": 2,
+  "mediana_mayor": 353.846725254,
+  "mediana_menor": 266.15225802,
+  "mse_epoca_1": 0.12138533592224121,
+  "mse_epoca_60": 0.006675854325294495,
+  "reduccion_mse_ajuste_pct": 94.5002793998354
+}

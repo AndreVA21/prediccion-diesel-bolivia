@@ -1,0 +1,15 @@
+﻿FAMILIA,CONFIG,CONVERGE,N,MAE,RMSE,MAPE,SESGO_REAL_MENOS_PRED,DESV_ERROR,AVISOS
+ARIMA,"(0, 1, 0)",True,60,41.119506698600006,52.25847244036355,9.234488846777559,3.2853407509999992,52.59523544139383,"Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed)."
+ARIMA,"(1, 1, 0)",True,60,40.83773620332785,50.585068608842704,9.223472927160294,3.9277876941914958,50.857944232105446,"Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed)."
+ARIMA,"(0, 1, 1)",True,60,39.789781262773104,48.85740873947504,9.044858856854866,4.700631820293111,49.04114961076328,"Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed)."
+ARIMA,"(1, 1, 1)",True,60,38.827863598620716,47.52554422008161,8.8145853819554,5.465701059176482,47.608610516037736,"Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed)."
+ARIMA,"(2, 1, 2)",True,60,38.897630354124395,47.67056990126731,8.825393913852066,5.819366689719371,47.713319812192275,"Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed). | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters. | Non-invertible starting MA parameters found. Using zeros as starting parameters."
+LSTM,"16,tanh,20",True,60,43.60007454498463,53.72545126932133,9.651771537330383,20.2242861080268,50.193547753818,
+LSTM,"50,relu,20",True,60,42.49624049197578,55.297990342085406,9.773263098081458,-7.02289406775445,55.31309981954781,
+LSTM,"16,tanh,60",True,60,43.46786381355885,53.1683517314465,9.580446879929275,21.449446325311957,49.06026952232417,
+LSTM,"50,relu,60",True,60,42.44940632744531,51.31787397276578,9.445365217675592,16.871791296015083,48.87410510740019,
